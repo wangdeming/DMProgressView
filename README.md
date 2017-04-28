@@ -80,4 +80,4 @@
     按顺序从下至下的示例图如下：
     
     
-    
+    ![](https://github.com/wangdeming/DMProgressView/blob/master/DMProgressView.tiff)
