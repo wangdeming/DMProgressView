@@ -15,6 +15,8 @@
 		98600CE01EB3082B009F7996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98600CDE1EB3082B009F7996 /* LaunchScreen.storyboard */; };
 		98600CEB1EB3082B009F7996 /* DMProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98600CEA1EB3082B009F7996 /* DMProgressViewTests.m */; };
 		98600CF61EB3082B009F7996 /* DMProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98600CF51EB3082B009F7996 /* DMProgressViewUITests.m */; };
+		98600D051EB3086B009F7996 /* DMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98600D041EB3086B009F7996 /* DMProgressView.m */; };
+		98600D081EB30895009F7996 /* UIColor+RGBValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 98600D071EB30895009F7996 /* UIColor+RGBValues.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		98600CF11EB3082B009F7996 /* DMProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98600CF51EB3082B009F7996 /* DMProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMProgressViewUITests.m; sourceTree = "<group>"; };
 		98600CF71EB3082B009F7996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98600D031EB3086B009F7996 /* DMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMProgressView.h; sourceTree = "<group>"; };
+		98600D041EB3086B009F7996 /* DMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMProgressView.m; sourceTree = "<group>"; };
+		98600D061EB30895009F7996 /* UIColor+RGBValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RGBValues.h"; sourceTree = "<group>"; };
+		98600D071EB30895009F7996 /* UIColor+RGBValues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RGBValues.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				98600CD41EB3082B009F7996 /* AppDelegate.m */,
 				98600CD61EB3082B009F7996 /* ViewController.h */,
 				98600CD71EB3082B009F7996 /* ViewController.m */,
+				98600D091EB3089D009F7996 /* DMProgress */,
 				98600CD91EB3082B009F7996 /* Main.storyboard */,
 				98600CDC1EB3082B009F7996 /* Assets.xcassets */,
 				98600CDE1EB3082B009F7996 /* LaunchScreen.storyboard */,
@@ -138,6 +145,17 @@
 				98600CF71EB3082B009F7996 /* Info.plist */,
 			);
 			path = DMProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		98600D091EB3089D009F7996 /* DMProgress */ = {
+			isa = PBXGroup;
+			children = (
+				98600D031EB3086B009F7996 /* DMProgressView.h */,
+				98600D041EB3086B009F7996 /* DMProgressView.m */,
+				98600D061EB30895009F7996 /* UIColor+RGBValues.h */,
+				98600D071EB30895009F7996 /* UIColor+RGBValues.m */,
+			);
+			name = DMProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98600D081EB30895009F7996 /* UIColor+RGBValues.m in Sources */,
+				98600D051EB3086B009F7996 /* DMProgressView.m in Sources */,
 				98600CD81EB3082B009F7996 /* ViewController.m in Sources */,
 				98600CD51EB3082B009F7996 /* AppDelegate.m in Sources */,
 				98600CD21EB3082B009F7996 /* main.m in Sources */,
