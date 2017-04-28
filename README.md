@@ -1,6 +1,6 @@
 # DMProgressView
 
-// default color, animated
+    // default color, animated
     DMProgressView *progressView = [[DMProgressView alloc] initWithFrame:CGRectMake(20, 130, self.view.frame.size.width-40, 30)];
     progressView.progress = 0.40;
     [self.progressViews addObject:progressView];
